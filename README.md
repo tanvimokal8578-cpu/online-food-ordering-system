@@ -41,20 +41,6 @@ Online Food Ordering System is a web-based application that allows customers to 
 ### Database
 - MySQL
 
-## Screenshots
-
-### Home / Result Screens
-![Screenshot 1](food_ordering_readme_assets/{saved[0] if len(saved)>0 else ""})
-
-### Registration / Login
-![Screenshot 2](food_ordering_readme_assets/{saved[1] if len(saved)>1 else ""})
-
-### Menu / Admin Dashboard
-![Screenshot 3](food_ordering_readme_assets/{saved[2] if len(saved)>2 else ""})
-
-### Database & Reports
-![Screenshot 4](food_ordering_readme_assets/{saved[3] if len(saved)>3 else ""})
-
 ## Modules
 1. User Module
 2. Menu Module
