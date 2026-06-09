@@ -62,37 +62,37 @@ The system allows users to browse restaurants, view menus, register/login, add f
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page]("C:\xampp\htdocs\orderfood\screenshot\home.png")
 
 ---
 
 ### 🍽️ Restaurant Listing
 
-![Restaurant Page](screenshots/restaurant.png)
+![Restaurant Page]("C:\xampp\htdocs\orderfood\screenshot\restaurant.png")
 
 ---
 
 ### 📝 Registration Page
 
-![Registration Page](screenshots/registration.png)
+![Registration Page]("C:\xampp\htdocs\orderfood\screenshot\registration.png")
 
 ---
 
 ### 🛒 Cart Page
 
-![Cart Page](screenshots/cart.png)
+![Cart Page]("C:\xampp\htdocs\orderfood\screenshot\cart.png")
 
 ---
 
 ### 📊 Admin Dashboard
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard]("C:\xampp\htdocs\orderfood\screenshot\admin-dashboard.png")
 
 ---
 
 ### 🍴 Menu Management
 
-![Admin Menu](screenshots/admin-menu.png)
+![Admin Menu]("C:\xampp\htdocs\orderfood\screenshot\admin-menu.png")
 
 ---
 
@@ -195,10 +195,7 @@ The dashboard provides:
 - Total Dishes
 - Total Users
 - Total Orders
-- Processing Orders
 - Delivered Orders
-- Cancelled Orders
-- Total Earnings
 
 ---
 
