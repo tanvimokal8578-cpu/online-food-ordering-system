@@ -60,41 +60,41 @@ The system allows users to browse restaurants, view menus, register/login, add f
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### 🏠 Home Page
 
-![Home Page]("C:\xampp\htdocs\orderfood\screenshot\home.png")
+![Home Page](screenshot/home.png)
 
 ---
 
 ### 🍽️ Restaurant Listing
 
-![Restaurant Page]("C:\xampp\htdocs\orderfood\screenshot\restaurant.png")
+![Restaurant Page](screenshot/restaurant.png)
 
 ---
 
 ### 📝 Registration Page
 
-![Registration Page]("C:\xampp\htdocs\orderfood\screenshot\registration.png")
+![Registration Page](screenshot/registration.png)
 
 ---
 
 ### 🛒 Cart Page
 
-![Cart Page]("C:\xampp\htdocs\orderfood\screenshot\cart.png")
+![Cart Page](screenshot/cart.png)
 
 ---
 
 ### 📊 Admin Dashboard
 
-![Admin Dashboard]("C:\xampp\htdocs\orderfood\screenshot\admin-dashboard.png")
+![Admin Dashboard](screenshot/admin-dashboard.png)
 
 ---
 
 ### 🍴 Menu Management
 
-![Admin Menu]("C:\xampp\htdocs\orderfood\screenshot\admin-menu.png")
-
----
+![Admin Menu](screenshot/admin-menu.png)
 
 ## ⚙️ Installation
 
