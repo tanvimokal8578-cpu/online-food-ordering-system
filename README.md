@@ -60,8 +60,6 @@ The system allows users to browse restaurants, view menus, register/login, add f
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### 🏠 Home Page
 
 ![Home Page](screenshot/home.png)
