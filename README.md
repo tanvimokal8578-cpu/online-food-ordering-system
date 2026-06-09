@@ -1,67 +1,227 @@
-from pathlib import Path
-import fitz  # PyMuPDF
+# 🍔 Online Food Ordering System
 
-outdir = Path("/mnt/data/food_ordering_readme_assets")
-outdir.mkdir(exist_ok=True)
+A complete Online Food Ordering System developed using **PHP**, **MySQL**, **HTML**, **CSS**, **Bootstrap**, and **JavaScript**.
 
-# Pages 53-56 in document numbering correspond roughly to indices 52-55
-saved = []
-for idx in [52, 53, 54, 55]:
-    if idx < len(doc):
-        page = doc[idx]
-        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
-        fname = outdir / f"screenshot_page_{idx+1}.png"
-        pix.save(str(fname))
-        saved.append(fname.name)
+The system allows users to browse restaurants, view menus, register/login, add food items to cart, place orders, and manage orders through an admin dashboard.
 
-readme = f"""# Online Food Ordering System
+---
 
-## Project Overview
-Online Food Ordering System is a web-based application that allows customers to browse food menus, register/login, add dishes to a cart, place orders, and make payments online.
+## 🚀 Features
 
-## Features
-- User Registration & Login
-- Menu Browsing
-- Search & Category Filtering
-- Cart Management
-- Order Placement
-- Payment Options (COD, UPI, Card)
-- Admin Dashboard
-- Order Management
+### 👤 User Module
 
-## Technology Stack
-### Frontend
+✅ User Registration
+
+✅ User Login
+
+✅ Browse Restaurants
+
+✅ View Food Menu
+
+✅ Add Food Items to Cart
+
+✅ Place Orders
+
+✅ Order Tracking
+
+✅ Responsive Design
+
+---
+
+### 🔑 Admin Module
+
+✅ Admin Dashboard
+
+✅ Manage Restaurants
+
+✅ Manage Menu Items
+
+✅ Manage Users
+
+✅ Manage Orders
+
+✅ View Order Statistics
+
+✅ Update Order Status
+
+---
+
+## 🛠️ Technology Stack
+
+- PHP
+- MySQL
 - HTML5
 - CSS3
 - Bootstrap
+- JavaScript
+- XAMPP
 
-### Backend
-- PHP
+---
 
-### Database
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+### 🍽️ Restaurant Listing
+
+![Restaurant Page](screenshots/restaurant.png)
+
+---
+
+### 📝 Registration Page
+
+![Registration Page](screenshots/registration.png)
+
+---
+
+### 🛒 Cart Page
+
+![Cart Page](screenshots/cart.png)
+
+---
+
+### 📊 Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+### 🍴 Menu Management
+
+![Admin Menu](screenshots/admin-menu.png)
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/orderfood.git
+```
+
+### 2️⃣ Move Project
+
+Copy the project folder into:
+
+```text
+xampp/htdocs/
+```
+
+### 3️⃣ Start XAMPP
+
+Start:
+
+- Apache
 - MySQL
 
-## Modules
-1. User Module
-2. Menu Module
-3. Cart Module
-4. Order Module
-5. Payment Module
-6. Admin Module
+### 4️⃣ Create Database
 
-## Future Scope
-- AI Chatbot Support
-- Real-Time Tracking
-- Loyalty Programs
-- Discount Coupons
-- Advanced Analytics
+Open phpMyAdmin:
 
-## Author
-Tanvi Madhukar Mokal
-B.Sc. Information Technology
-"""
+```text
+http://localhost/phpmyadmin
+```
 
-readme_path = "/mnt/data/README.md"
-Path(readme_path).write_text(readme, encoding="utf-8")
+Create database:
 
-print({"readme": readme_path, "assets_dir": str(outdir), "images": saved})
+```sql
+orderfood
+```
+
+### 5️⃣ Import Database
+
+Import the provided SQL file.
+
+### 6️⃣ Run Project
+
+Open:
+
+```text
+http://localhost/orderfood
+```
+
+---
+
+## 📂 Project Modules
+
+### Home Module
+
+- Landing Page
+- Popular Dishes
+- Navigation Menu
+
+### Restaurant Module
+
+- Restaurant Listing
+- Restaurant Categories
+
+### Menu Module
+
+- Food Item Display
+- Price Information
+
+### Cart Module
+
+- Add To Cart
+- Remove From Cart
+- Order Summary
+
+### Authentication Module
+
+- Registration
+- Login
+- Logout
+
+### Admin Module
+
+- Dashboard
+- Restaurants Management
+- Menu Management
+- User Management
+- Order Management
+
+---
+
+## 📊 Admin Dashboard Statistics
+
+The dashboard provides:
+
+- Total Restaurants
+- Total Dishes
+- Total Users
+- Total Orders
+- Processing Orders
+- Delivered Orders
+- Cancelled Orders
+- Total Earnings
+
+---
+
+## 🔮 Future Enhancements
+
+- Online Payment Gateway
+- UPI Integration
+- Order Tracking System
+- Email Notifications
+- SMS Notifications
+- Food Reviews & Ratings
+- Mobile Application
+
+---
+
+## 👩‍💻 Developer
+
+**Tanvi Mokal**
+
+B.Sc Information Technology Student
+
+---
+
+## 📜 License
+
+This project is developed for educational and learning purposes.
